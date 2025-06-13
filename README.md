@@ -24,8 +24,8 @@ The script is built with TypeScript and uses [`viem`](https://www.google.com/sea
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
+    git clone https://github.com/woogieboogie-jl/hackathon-distributer
+    cd hackathon-distributer
     ```
 
 2.  **Install dependencies:**
@@ -89,7 +89,7 @@ This project uses `pnpm` scripts defined in `package.json` to run tasks.
     This command uses `tsx` to compile and run your TypeScript file in one step. It's the recommended way to run the faucet.
 
     ```bash
-    pnpm dev:tsx
+    pnpm exec tsx testnet-airdrop.ts
     ```
 
     *Before running, make sure you've set the desired `NETWORK` ("anvil" or "sepolia") in your `.env` file.*
